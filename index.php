@@ -2,7 +2,6 @@
 $page_title = 'Inicio';
 require_once 'config.php';
 
-// Si el usuario ya está autenticado, redirigir al dashboard
 if (isAuthenticated()) {
     header('Location: dashboard.php');
     exit();
@@ -45,7 +44,7 @@ if (isAuthenticated()) {
                 <p class="lead text-muted">Una herramienta completa para gestionar tus finanzas personales de manera simple y efectiva.</p>
             </div>
         </div>
-        
+
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm">
@@ -58,7 +57,7 @@ if (isAuthenticated()) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm">
                     <div class="card-body text-center p-4">
@@ -70,7 +69,7 @@ if (isAuthenticated()) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="card h-100 border-0 shadow-sm">
                     <div class="card-body text-center p-4">
@@ -99,7 +98,7 @@ if (isAuthenticated()) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 mb-4">
                 <div class="card border-0 bg-success text-white">
                     <div class="card-body">
@@ -109,7 +108,7 @@ if (isAuthenticated()) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 mb-4">
                 <div class="card border-0 bg-info text-white">
                     <div class="card-body">
@@ -119,7 +118,7 @@ if (isAuthenticated()) {
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 mb-4">
                 <div class="card border-0 bg-warning text-white">
                     <div class="card-body">
@@ -155,4 +154,4 @@ if (isAuthenticated()) {
     </div>
 </section>
 
-<?php include 'includes/footer.php'; ?> 
+<?php include 'includes/footer.php'; ?>
